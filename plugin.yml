@@ -1,0 +1,14 @@
+name: SUPERCUB-DataReload
+main: SrJayYTs\PluginManager\Main
+version: 1.0.0
+api: [5.0.0]
+author: SrJayYTs
+commands:
+  restart:
+    description: "SUPERCUB - RELOAD DATA COMMNAND."
+    usage: "/restart"
+    permission: supercub.datareload
+permissions:
+  supercub.datareload:
+    description: "SUPERCUB RELOAD DATA"
+    default: op
